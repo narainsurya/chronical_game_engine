@@ -1,13 +1,13 @@
-all: ironhold
+all: chronicle
 
 console.o: ./src/console.cpp
-	g++ -Wall -I. -c -o console.o ./src/console.cpp
+	g++ -Wall -I ./include/ -c -o console.o ./src/console.cpp
 
 main.o: ./src/main.cpp
-	g++ -Wall -I. -c -o main.o ./src/main.cpp
+	g++ -Wall -I ./include/ -c -o main.o ./src/main.cpp
 
-ironhold: console.o main.o
-	g++ console.o main.o -o ironhold
-	./ironhold
+chronicle: console.o main.o
+	g++ console.o main.o -o chronicle
+	
 clean:
-	rm -f *.o ironhold
+	rm -f *.o chronicle
