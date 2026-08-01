@@ -7,7 +7,7 @@
 #   at least ".quit" and ".help". Other commands (.version, .status)
 #   are strongly recommended. Returns MetaResult::SUCCESS.
 # ─────────────────────────────────────────────────────────────────
-source "./helpers.sh"
+source "../helpers.sh"
 BINARY="${1:-../chronicle}"
 NAME="M1/02 — .help lists commands"
 OK=true
