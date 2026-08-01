@@ -9,7 +9,7 @@
 #   The count must remain 1 after the failed second spawn.
 # ─────────────────────────────────────────────────────────────────
 source "../helpers.sh"
-BINARY="${1:-../../chronicle}"
+BINARY="${1:-../chronicle}"
 NAME="M2/04 — Duplicate ID rejected"
 OK=true
 W=$(new_world)

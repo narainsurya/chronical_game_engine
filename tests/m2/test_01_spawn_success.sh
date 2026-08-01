@@ -10,7 +10,7 @@
 #   and the executor prints "Spawned." (or similar success message).
 # ─────────────────────────────────────────────────────────────────
 source "../helpers.sh"
-BINARY="${1:-../../chronicle}"
+BINARY="${1:-../chronicle}"
 NAME="M2/01 — SPAWN PLAYER prints success"
 OK=true
 W=$(new_world)

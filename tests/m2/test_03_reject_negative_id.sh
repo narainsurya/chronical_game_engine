@@ -10,7 +10,7 @@
 #   NOT appear.
 # ─────────────────────────────────────────────────────────────────
 source "../helpers.sh"
-BINARY="${1:-../../chronicle}"
+BINARY="${1:-../chronicle}"
 NAME="M2/03 — Negative and zero IDs rejected"
 OK=true
 W=$(new_world)
